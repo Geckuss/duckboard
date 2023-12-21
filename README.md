@@ -1,9 +1,7 @@
 # DDBD
 
-This is a repository for source code of doodboard projects
+This is a repository for source code and documentation of duckboard R2 assembly
 
-Feel free to download and modify to your needs. 
-
-Follow QMK tutorial to compile your own firmware. 
+QMK tutorial to compile firmware. 
 
 https://beta.docs.qmk.fm/tutorial/newbs_building_firmware 
