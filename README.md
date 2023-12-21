@@ -1,8 +1,7 @@
-# Build guide for R2/R3 duckboard
+# Build guide for duckboard
 
-Here is a comprehensive build guide for **R2/R3** duckboard, written by **doodboard**
+Here is a comprehensive build guide for duckboard
 <br/>
-last update - July/6th/2021
 
 ## Table of Contents
 
@@ -52,7 +51,8 @@ There are some items you will need in order to build your duckboard.
 
 ### A single duckboard kit includes the following:
 
-![component-1](img/component_1.jpg)
+![component_1](https://github.com/Geckuss/duckboard/assets/58637152/6567cbcd-49ef-4ffd-aa6f-1fd2a886fbca)
+
 
 | Label  | Part name         | Part quantity | Possible replacement (if needed)  |
 |--------|-------------------|---------------|-----------------------------------|
@@ -79,7 +79,7 @@ There are some items you will need in order to build your duckboard.
 
 ### A single acrylics case kit includes the following:
 
-![component-2](img/component_2.jpg)
+![component_2](https://github.com/Geckuss/duckboard/assets/58637152/139b00e5-126e-4c68-b2af-049b3b5b5564)
 
 | Label  | Part name                       | Part quantity |
 |--------|---------------------------------|---------------|
@@ -92,7 +92,7 @@ There are some items you will need in order to build your duckboard.
 <br/>
 <br/>
 
-![component-3](img/component_3.jpg)
+![component_3](https://github.com/Geckuss/duckboard/assets/58637152/480994e8-2c60-47b1-a3af-f67b7e0671a2)
 
 | Label  | Part name         | Part quantity |
 |--------|-------------------|---------------|
@@ -106,9 +106,9 @@ There are some items you will need in order to build your duckboard.
 
 ### Please flash and test your promicro before starting the build!
 
-You can download the **hex file** for R2/R3 duckboard [**here**](https://officialdoodboard.netlify.app/support/duckboard_R2_R3_default.hex)
+You can download the **hex file** for duckboard from this repository
 
-If you wish to compile your own hex file, you can grab the **source code** [**here**](https://github.com/doodboard/source-code)
+If you wish to compile your own hex file, you can grab the **source code** from this repository
 
 You can grab **QMK toolbox** from [**here**](https://github.com/qmk/qmk_toolbox)
 
