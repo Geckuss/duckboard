@@ -1,3 +1,9 @@
+Original repositories:
+https://github.com/doodboard/tutorial/tree/main
+https://github.com/doodboard/source-code
+
+Founder of duckboard has been offline since 2021
+
 # Build guide for duckboard
 
 Here is a comprehensive build guide for duckboard
