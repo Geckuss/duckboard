@@ -112,9 +112,10 @@ If you wish to compile your own hex file, you can grab the **source code** from 
 
 You can grab **QMK toolbox** from [**here**](https://github.com/qmk/qmk_toolbox)
 
-If you wish to use VIA, download the **hex file** for R2 duckboard (R3 duckboard can use R2 firmware) [**here**](https://caniusevia.com/docs/download_firmware)
+If you wish to use VIA, download the **hex file** for duckboard from this repository
 
-![qmk_toolbox1](img/qmk_toolbox_1.jpg)
+![qmk_toolbox_1 (1)](https://github.com/Geckuss/duckboard/assets/58637152/e9cad255-4c7a-44e2-8e5a-266fa9ca798e)
+
 
 1. confirm you have downloaded and opened the **right HEX file** on qmk toolbox
 2. MCU should be set to **"atmega32u4"**
@@ -127,7 +128,7 @@ Use a **tweezer** or **pliers** or anything else conductive.
 
 You should see the following if everything went successfully.
 
-![qmk_toolbox2](img/qmk_toolbox_2.jpg)
+![qmk_toolbox_2](https://github.com/Geckuss/duckboard/assets/58637152/c5fbbf2e-2565-42dc-b319-b6d3c987dbca)
 
 <br/>
 <br/>
@@ -143,7 +144,7 @@ I personally prefer flux paste, as opposed to flux pens, but it's up to personal
 LEDs provide underglow to the duckboard. If you find it too frustrating, it's **alright** to forego the LEDs. <br/>
 **It won't affect the core functionality of duckboard as a macropad**
 
-![LED1](img/LED_1.jpg)
+![LED_1 (1)](https://github.com/Geckuss/duckboard/assets/58637152/ea5551e9-5cca-4873-9666-964541a33d32)
 
 LEDs should be positioned as shown above, **the small black square inside the LED should line up with the small circle on the PCB**.
 
@@ -159,7 +160,7 @@ LEDs should be positioned as shown above, **the small black square inside the LE
 
 <br/>
 
-![LED3](img/LED_3.jpg)
+![LED_3](https://github.com/Geckuss/duckboard/assets/58637152/81d64a84-f901-413d-be3e-6a6351f44418)
 
 The finished solder joints should look like the photo above. You are aiming for the **nice slope of solder**, not a blob.
 Please make sure you only make contact with the iron for **2-3 seconds** at a time. Longer exposure to heat can burn out the LED.
@@ -173,7 +174,7 @@ In the case that you burn through even the extra LEDs provided, model number is 
 
 ### Next step is installing the diodes. 
 
-![diode1](img/diodes.jpg)
+![diodes](https://github.com/Geckuss/duckboard/assets/58637152/6b526182-6025-456c-a930-949c4dc9c2bc)
 
 Nothing fancy here. **Align the diodes as shown above**, and solder them in. I recommend using flux, but it's not required.
 There are total of **22** diodes to install: 21 for the 21 switches, and 1 for the push function of rotary encoder.
@@ -183,7 +184,7 @@ You should** clip the diode legs flush to the PCB** in order to prevent clearing
 
 Here is an up-close image of what a soldered diode looks like:
 
-![Image of a diode soldered to the PCB](img/diode_soldered.jpg)
+![diode_soldered](https://github.com/Geckuss/duckboard/assets/58637152/50059f17-29fa-41a8-8a86-72a1d39fd1e8)
 
 <br/>
 <br/>
@@ -192,7 +193,7 @@ Here is an up-close image of what a soldered diode looks like:
 
 ### And now onto the hotswap sockets.
 
-![hotswap1](img/hotswap_1.jpg)
+![hotswap_1](https://github.com/Geckuss/duckboard/assets/58637152/f8ef6358-7f50-4697-ac38-feb4f4945649)
 
 Again, nothing fancy here. Place the hotswap sockets into the PCB, following the guidelines. <br/>
 If you prefer to solder your switches directly to the PCB, you can skip this process, and solder in the switches later **after** installing the top plate. <br/>
@@ -200,7 +201,8 @@ Depending on if you would like to use duckboard as **full 1u macropad**, or as *
 
 Here is an up-close image of what a soldered hotswap socket looks like:
 
-![Image of a hotswap socket soldered to the PCB](img/hotswap_soldered.jpg)
+![hotswap_soldered](https://github.com/Geckuss/duckboard/assets/58637152/d771ad85-7baa-4ce0-b7ae-a689d8d82c72)
+
 
 <br/>
 <br/>
@@ -209,7 +211,7 @@ Here is an up-close image of what a soldered hotswap socket looks like:
 
 ### Now the real fun begins.
 
-![promicro1](img/promicro_0.jpg)
+![promicro_0](https://github.com/Geckuss/duckboard/assets/58637152/0584521d-cee5-4965-ac1d-6f278f4e5b16)
 
 Again, I recommend using flux, but it's not required. Just makes your life a **little** easier.
 
@@ -218,7 +220,7 @@ b) Solder the ProMicro to the PCB, and cut off the pins as much as you can, **wi
 
 After soldering and trimming the pins, your Pro Micro should be attached to your PCB similar to this:
 
-![Image of the Pro Micro soldered to the PCB](img/promicro_soldered.jpg)
+![promicro_soldered](https://github.com/Geckuss/duckboard/assets/58637152/61715cbc-02a1-4c26-aa8a-5d11c85b8d71)
 
 <br/>
 <br/>
@@ -234,13 +236,13 @@ If LED_1, 2 and 3 light up, but not 4, try reflowing LED_3 and 4 until 4 lights 
 Default colour for LED is **RED** with default R2/R3 hex file. If some of your LEDs light up in different colour, it's due to **corrupted** signal caused by bad solder joints.
 If some of your LEDs work, but not in serial, so for instance LED_1, 2 and 8 light up, the same principle applies. Work on LED 2 and 3 until 3 lights up.
 
-![promicro2](img/promicro_2.jpg)
+![promicro_2](https://github.com/Geckuss/duckboard/assets/58637152/b4097912-5044-4a4b-a0bc-df4a52e300c5)
 
 This is the schematic of the LED wiring for reference.
 
 <br/>
 
-![hotswap2](img/hotswap_2.jpg)
+![hotswap_2](https://github.com/Geckuss/duckboard/assets/58637152/c48cc929-e605-4baa-92dd-e7cd98597b0e)
 
 This is also the perfect time to test your **keypresses**. You can either plug in the switches to test the keystrokes, or manually short the hotswap sockets. 
 
@@ -262,7 +264,7 @@ Here is a reference image in courtesy of **adafruit**.
 
 ### Fun fun fun!
 
-![encoder](img/encoder_1.jpg)
+![encoder_1](https://github.com/Geckuss/duckboard/assets/58637152/496f9e81-0b16-45c2-955e-6c821a0db5f7)
 
 No fancy tricks. Solder **7** spots circled above. Make sure the encoder is sitting **flush** to the PCB before you solder it.
 The two tabs in the middle are for **structural** purposes only. Apply solder generally. 
@@ -288,7 +290,7 @@ It should **increase/decrease** the volume, and **mute/unmute** your media playe
 	<summary>CLICK ME</summary>
 <br/>
 
-![component-2](img/component_2.jpg)
+![topplate](https://github.com/Geckuss/duckboard/assets/58637152/61704d5b-4d00-4186-8bed-fa185d5a0b13)
 
 **Install stabilizers now** before moving on if you wish to use them. For 2u switches, I personally prefer the tactility of not having stabs installed, but that's just my personal opinion.
 
@@ -310,7 +312,7 @@ Assemble with the rest of your acrylic plates and screw them in place. That's it
 
 </details>
 
-![top plate](img/topplate.jpg)
+![topplate](https://github.com/Geckuss/duckboard/assets/58637152/9609473b-130a-4e4c-a97d-f33bba6880b8)
 
 **Install stabilizers now** before moving on if you wish to use them. For 2u switches, I personally prefer the tactility of not having stabs installed, but that's just my personal opinion.
 Place the 4 screws into the plate, and screw in the **shorter** standoffs. Then place the top plate onto the PCB, and screw in the **longer** standoffs.
@@ -324,10 +326,10 @@ You may find it easier to hold the standoffs with **pliers** while screwing them
 
 ### 4 last solder joints
 
-![oled1](img/oled_1.jpg)
+![oled_1](https://github.com/Geckuss/duckboard/assets/58637152/5112c239-9f86-480b-8b64-ce710fb7bfce)
 **Remove the black plastic** from the OLED pins. Pull them out **gently** using your fingers or pliers if necessary.
 
-![oled2](img/oled_2.jpg)
+![oled_2](https://github.com/Geckuss/duckboard/assets/58637152/ec3a1805-84f2-480f-a507-c75cda4fd655)
 Install the OLED in place. Make sure the OLED module is **parallel** to the top plate, and is **positioned correctly** before soldering into place.
 
 Plug in the USB cable once again at this point and ensure **everything** checks out. If you chose to solder the switchs in directly, now is the time to do so.
@@ -339,20 +341,19 @@ Plug in the USB cable once again at this point and ensure **everything** checks 
 
 ### FINISHED
 
-![finished](img/finished_1.jpg)
+![finished_1](https://github.com/Geckuss/duckboard/assets/58637152/7912e50e-4929-4403-bc96-cbe2336feedf)
 
 Place the bottom plate in position and screw in the 4 x M2 nuts to finish off the build. **Install switches and keycaps to your liking, and type away**!
 
-[**Here**](https://i.imgur.com/bLKk2QL.jpg) is the default **keymap** for reference. 
+Here is the default **keymap** for reference. 
+![keymap](https://github.com/Geckuss/duckboard/assets/58637152/6a45cd71-8e4a-43ca-92d5-553ff8b2737b)
 
-[**Here**](img/pinout_1.JPG) is the pinout diagram for troubleshooting. 
+Here is the pinout diagram for troubleshooting. 
+![pinout_1](https://github.com/Geckuss/duckboard/assets/58637152/a3d56366-094c-46da-a417-1a6cb568bb54)
 
-<br/>
-
-Thank you so much for coming along this journey! R4 is planned for **JULY/AUGUST 2021**, I hope to see you guys again, **soon!**
 
 <br/><br/>
 
 ## what's next?
 
-You can add your favourite stabilizers, switches, and keycaps! If you are interested in changing the default keymap or other functionality of the board, you may also want to learn about [QMK](https://docs.qmk.fm/) and use the [duckboard source code](https://github.com/doodboard/source-code).
+You can add your favourite stabilizers, switches, and keycaps! If you are interested in changing the default keymap or other functionality of the board, you may also want to learn about [QMK](https://docs.qmk.fm/) and use the duckboard source code
