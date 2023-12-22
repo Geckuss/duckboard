@@ -61,7 +61,7 @@ There are some items you will need in order to build your duckboard.
 | **b**  | M2 nuts           | 4             |                                   |
 | **b**  | Short standoffs   | 4             | h: 4mm                            |
 | **b**  | Long standoffs    | 4             | h: 6mm                            |
-| **c**  | LEDs              | 8             | SK6812 3535 Mini (search Aliexpress) |
+| **c**  | LEDs              | 8             | SK6812 3535 Mini 		 |
 | **d**  | Hotswap sockets   | 21            | Kailh hotswap sockets             |
 | &nbsp; |                   |               |                                   |
 | **e**  | Encoder knob      | 1             |                                   |
@@ -72,7 +72,7 @@ There are some items you will need in order to build your duckboard.
 | **i**  | Bottom plate      | 1             |                                   |
 | &nbsp; |                   |               |                                   |
 | **j**  | Pro Micro         | 1             |                                   |
-| **k**  | OLED              | 1             | .91” 128px x 32px OLED (some may not work. BUY AT YOUR OWN RISK) |
+| **k**  | OLED              | 1             | .91” 128px x 32px OLED 		 |
 
 <br/>
 <br/>
