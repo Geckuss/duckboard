@@ -4,6 +4,14 @@ Original repositories:
 
 Founder of duckboard has been offline since 2021
 
+![IMG_0186](https://github.com/Geckuss/duckboard/assets/58637152/80390f13-bb15-4000-904c-9daa857f3cf3)
+![IMG_0187](https://github.com/Geckuss/duckboard/assets/58637152/952995b8-e5ce-4afe-9cbd-704815826419)
+![IMG_0189](https://github.com/Geckuss/duckboard/assets/58637152/ff1cb02a-91a7-4a3d-9512-61c013696096)
+![IMG_0188](https://github.com/Geckuss/duckboard/assets/58637152/3a9bd6ad-983e-4bf5-8a13-5926cabc734d)
+![IMG_0192](https://github.com/Geckuss/duckboard/assets/58637152/eb37d200-9f0f-4007-b2ed-90164870e569)
+![IMG_0194](https://github.com/Geckuss/duckboard/assets/58637152/267350cf-bb37-4f51-b175-14cefa97cb8e)
+![IMG_0193](https://github.com/Geckuss/duckboard/assets/58637152/eba056ac-5def-43a2-846a-c5cb1e4f0443)
+
 # Build guide for duckboard
 
 Here is a comprehensive build guide for duckboard
