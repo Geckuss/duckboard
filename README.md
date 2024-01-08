@@ -2,7 +2,9 @@ Original repositories:
 <br>https://github.com/doodboard/tutorial/tree/main
 <br>https://github.com/doodboard/source-code
 
-Founder of duckboard has been offline since 2021
+Founder of duckboard has been offline since 2021. This readme is forked form the repo, and complemented with my own pictures and observations during the process
+
+Pictures taken during the assembly:
 
 ![IMG_0186](https://github.com/Geckuss/duckboard/assets/58637152/80390f13-bb15-4000-904c-9daa857f3cf3)
 ![IMG_0187](https://github.com/Geckuss/duckboard/assets/58637152/952995b8-e5ce-4afe-9cbd-704815826419)
